@@ -1,0 +1,18 @@
+.listItems {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listItems li {
+  padding: 20px;
+}
+.listItems li a {
+  color: white;
+  text-decoration: none;
+}
+.listItems li a:hover,
+.listItems li a:active,
+.listItems li a.linkActive {
+  text-decoration: underline;
+}
